@@ -26,6 +26,7 @@
 		FE579F51240379E50027438A /* Algorithm_Problems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm_Problems; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE579F54240379E50027438A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FE579F5B2403A1760027438A /* NQueen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NQueen.h; sourceTree = "<group>"; };
+		FE579F5C2403A7670027438A /* All_NQueen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = All_NQueen.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				FE579F54240379E50027438A /* main.cpp */,
+				FE579F5C2403A7670027438A /* All_NQueen.h */,
 				FE579F5B2403A1760027438A /* NQueen.h */,
 			);
 			path = Algorithm_Problems;

@@ -8,22 +8,33 @@
 
 #include <iostream>
 #include "NQueen.h"
+#include "All_NQueen.h"
 
 int main(int argc, const char * argv[]) {
 
 //   -----------------------------------------
 //                   N-Queen
 //   -----------------------------------------
+//   int n = 0;
+//   cout << "Size of the board: ";
+//   cin >> n;
+//   vector<vector<int>> board(n, vector<int>(n, 0));
+//   NQueen(board, n, 0);
+//   for (int i = 0; i < n; i++) {
+//      for (int j = 0; j < n; j++)
+//         cout << board[i][j];
+//      cout << endl;
+//   }
+//   -----------------------------------------
+
+//   -----------------------------------------
+//                  All N-Queen
+//   -----------------------------------------
    int n = 0;
    cout << "Size of the board: ";
    cin >> n;
    vector<vector<int>> board(n, vector<int>(n, 0));
-   NQueen(board, n, 0);
-   for (int i = 0; i < n; i++) {
-      for (int j = 0; j < n; j++)
-         cout << board[i][j];
-      cout << endl;
-   }
-//   -----------------------------------------
+   AllNQueen(board, 0);
+//      -----------------------------------------
    return 0;
 }
