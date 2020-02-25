@@ -27,6 +27,7 @@
 		FE579F54240379E50027438A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FE579F5B2403A1760027438A /* NQueen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NQueen.h; sourceTree = "<group>"; };
 		FE579F5C2403A7670027438A /* All_NQueen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = All_NQueen.h; sourceTree = "<group>"; };
+		FE579F5D2404CF760027438A /* KnightTour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnightTour.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 				FE579F54240379E50027438A /* main.cpp */,
 				FE579F5C2403A7670027438A /* All_NQueen.h */,
 				FE579F5B2403A1760027438A /* NQueen.h */,
+				FE579F5D2404CF760027438A /* KnightTour.h */,
 			);
 			path = Algorithm_Problems;
 			sourceTree = "<group>";

@@ -9,6 +9,7 @@
 #include <iostream>
 #include "NQueen.h"
 #include "All_NQueen.h"
+#include "KnightTour.h"
 
 int main(int argc, const char * argv[]) {
 
@@ -30,11 +31,26 @@ int main(int argc, const char * argv[]) {
 //   -----------------------------------------
 //                  All N-Queen
 //   -----------------------------------------
+//   int n = 0;
+//   cout << "Size of the board: ";
+//   cin >> n;
+//   vector<vector<int>> board(n, vector<int>(n, 0));
+//   AllNQueen(board, 0);
+//   -----------------------------------------
+
+//   -----------------------------------------
+//                Knight's tour
+//   -----------------------------------------
    int n = 0;
    cout << "Size of the board: ";
    cin >> n;
    vector<vector<int>> board(n, vector<int>(n, 0));
-   AllNQueen(board, 0);
-//      -----------------------------------------
+   vector<pair<int, int>> move = {
+      {-2, 1}, {-1, 2}, {1, 2}, {2, 1}, {2, -1}, {1, -2},
+      {-1, -2}, {-2, -1}
+   };
+   board[0][0] = 1;
+   knight(board, move, 1, 0, 0);
+   
    return 0;
 }
